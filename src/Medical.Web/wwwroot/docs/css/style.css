@@ -1,0 +1,122 @@
+aside, nav, footer, header, section { display: block }
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3c3c3b;
+}
+a {
+	color: #28c;
+}
+img {
+	border: none;
+}
+input, textarea, button, select,a {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+input, textarea, button, select {}
+input::-webkit-input-placeholder {
+	color: inherit;
+}
+input::-moz-placeholder {
+	color: inherit;
+}
+input:-moz-placeholder {
+	color: inherit;
+}
+input:-ms-input-placeholder {
+	color: inherit;
+}
+
+textarea::-webkit-input-placeholder {
+	color: inherit;
+}
+textarea::-moz-placeholder {
+	color: inherit;
+}
+textarea:-moz-placeholder {
+	color: inherit;
+}
+textarea:-ms-input-placeholder {
+	color: inherit;
+}
+*:focus {
+	outline: none;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.tal {
+	text-align: left;
+}
+.tar {
+	text-align: right;
+}
+.tac {
+	text-align: center;
+}
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#all {
+	position: relative;
+	overflow: hidden;
+}
+
+h1,.h1 {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 1em 0 0.5em;
+}
+
+h2,.h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 1em 0 0.5em;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.header, .footer {
+    background: #23abe1;
+    color: #fff;
+}
+
+.header .logo-area {
+    margin: 20px 0;
+}
+
+.header .h1 {
+    margin: 15px 0;
+}
+
+.footer {
+	margin-top: 30px;
+}
+
+.footer a {
+    color: #fff;
+}

@@ -1,0 +1,790 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Template documentation</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/frontend-grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/prism.css">
+	<!--[if IE]>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.0/mootools-yui-compressed.js"></script>
+      <script type="text/javascript" src="js/selectivizr-min.js"></script>
+      <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div id="all">
+		<header class="header dark-bg overlay clearfix">
+			<div class="fw-container">
+				<div class="fw-main-row">
+					<div class="fl logo-area"><a href="http://promo-theme.com/cropit/"><img src="images/logo.png" alt="Crop It"></a></div>
+					<div class="fr">
+						 <div class="h1">Documentation</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="fw-main-row">
+			<div class="fw-container">
+				<div class="h1">Template structure</div>
+				<p>Below we have prepared CropIt template structure</p>
+				<p><img src="images/structure.png" alt="Template structure"></p>
+				<div class="h1">Page structure</div>
+				<p>This code provides the basic structure of the html template. The [ ] shows the main parts of the html template</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>[ Page title ]</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/medical-icons.css">
+		<link rel="stylesheet" href="css/social-icons.css">
+		<link rel="stylesheet" href="css/icon-font.css">
+			
+			[ Css files area ]
+
+		<link rel="stylesheet" href="css/frontend-grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<!--[if IE]>
+	      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.0/mootools-yui-compressed.js"></script>
+	      <script type="text/javascript" src="js/selectivizr-min.js"></script>
+	      <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+	</head>
+<!DOCTYPE HTML>
+<html lang="ru">
+	<body>
+		<div id="page">
+			<!-- Preloader -->
+			<div id="page-preloader">
+				<div class="spinner centered-container"></div>
+			</div>
+			<!-- END Preloader -->
+			<!-- Header -->
+			<header class="header clearfix">
+				<!-- Top header -->
+				<div class="fw-main-row top-header">
+					<div class="fw-container">
+						[ Header top content ]
+					</div>
+				</div>
+				<!-- END Top header -->
+				<!-- Header-wrap -->
+				<div class="fw-main-row header-wrap">
+					<div class="fw-container">
+						[ Header content ]
+					</div>
+				</div>
+				<!-- END Header-wrap -->
+			</header>
+			<!-- END Header -->
+			
+			[ Blocks ]
+
+			<footer class="footer fw-main-row">
+				<div class="fw-container">
+					[ Footer content ]
+				</div>
+			</footer>
+
+			[ Script library area ]
+		</div>
+	</body>
+</html></script></code></pre>
+				<div class="h1">Grid</div>
+				<p>We uses Bootstrap's grid system, you can see its structure below. For more information please visit the <a href="http://getbootstrap.com/css/#grid-example-basic">official bootstrap documentation</a> page.</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><div class="fw-row">
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+</div>
+<div class="fw-row">
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+</div>
+<div class="fw-row">
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+</div>
+<div class="fw-row">
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+	<div class="fw-col-xs-12 fw-col-md-4">[ Content ]</div>
+</div></script></code></pre>
+				<div class="h1">Typography</div>
+				<p>You can use different styles of headings and text.</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Headings -->
+<h1>[ Heading ]</h1>
+<h2>[ Heading ]</h2>
+<h3>[ Heading ]</h3>
+<h4>[ Heading ]</h4>
+
+<h1 class="heading-decor">[ Heading ]</h1>
+<h2 class="heading-decor">[ Heading ]</h2>
+<h3 class="heading-decor">[ Heading ]</h3>
+
+<!-- Paragraphs -->
+
+<p><a href="#">Nullam quis</a> risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod sd asdasd asd ad sdsd sdf sdff dsfs dfsdf sfdg sdfg tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+<!-- Highlighters -->
+
+<p>Nullam quis risus eget urna <span class="highlighted-red">mollis ornare vel eu leo</span>. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh <span class="highlighted-grey">ultricies vehicula</span> ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, <span class="highlighted-dark">nisi erat porttitor</span> ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+
+<!-- Standard listings -->
+
+<ul>
+	<li>Enim congue blandit lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+	<li>Interdum finibus. Vestibulum ante ipsum primis in faucibus orci luctus.</li>
+	<li>Posuere cubilia cras blandit porttitor arcu volutpat a. Integer iaculis erat.</li>
+	<li>Vel tempus sapien. Vivamus aliquam euismod tristique.</li>
+</ul>
+<ol>
+	<li>Enim congue blandit lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+	<li>Interdum finibus. Vestibulum ante ipsum primis in faucibus orci luctus.</li>
+	<li>Posuere cubilia cras blandit porttitor arcu volutpat a. Integer iaculis erat.</li>
+	<li>Vel tempus sapien. Vivamus aliquam euismod tristique.</li>
+</ol></script></code></pre>
+				<div class="h1">Buttons</div>
+				<p>You have two styles of buttons. These examples you can use for your ideas.</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Button style1 -->
+<a href="javascript:void(0);" class="button-style1"><span>Button style 1</span></a>
+<a href="javascript:void(0);" class="button-style1 dark"><span>Button style 1 dark</span></a>
+<a href="javascript:void(0);" class="button-style1 min"><span>Button style 1 min</span></a>
+	
+<!-- Button style2 -->
+<a href="javascript:void(0);" class="button-style2"><span>Button style 2</span></a>
+<a href="javascript:void(0);" class="button-style2 gray"><span>Button style 2 gray</span></a>
+<a href="javascript:void(0);" class="button-style2 min"><span>Button style 2 min</span></a>
+<a href="javascript:void(0);" class="button-style2 big"><span>Button style 2 big</span></a></script></code></pre>
+				<div class="h1">Forms</div>
+				<p>You have two styles of buttons. These examples you can use for your ideas.</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><form action="javascript:void(0);">
+	<!-- Radio -->
+	<input type="radio" class="style1" name="radio" id="radio1" checked=""><label for="radio1"></label>
+	<input type="radio" class="style1" name="radio" id="radio2"><label for="radio2"></label>
+
+	<!-- Checkbox -->
+	<input type="checkbox" class="style1" name="checkbox" id="checkbox1" checked=""><label for="checkbox1"></label>
+	<input type="checkbox" class="style1" name="checkbox" id="checkbox2"><label for="checkbox2"></label>
+
+	<!-- Input text -->
+	<input type="text" class="style1" placeholder="Input style 1">
+	<input type="text" class="style1 min" placeholder="Input style 1 min">
+
+	<!-- Textarea -->
+	<textarea placeholder="Text area" class="style1"></textarea>
+
+	<!-- Select box -->
+	<select class="style1">
+		<option value="">Select box</option>
+		<option value="">Select value 1</option>
+		<option value="">Select value 2</option>
+		<option value="">Select value 3</option>
+		<option value="">Select value 4</option>
+	</select>
+</form></script></code></pre>
+				<div class="h1">Preloader</div>
+				<p>If you use a large amount of content is recommended to use a preloader on your page. Below is an example of its implementation code.</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><body>
+	<div id="page">
+		<!-- Page preloader -->
+		<div id="page-preloader">
+			<div class="spinner centered-container"></div>
+		</div>
+		<!-- END Page preloader -->
+
+		...
+
+	</div>
+</body></script></code></pre>
+				<div class="h1">Header</div>
+				<p>Header has two styles, light and dark, to add this class dark-bg or white-bg</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><header class="header clearfix">
+	<!-- Top header -->
+	<div class="fw-main-row top-header">
+		<div class="fw-container">
+			<div class="fl">
+				[ Social links ]
+			</div>
+			<div class="fr">
+				[ Contacts ]
+			</div>
+		</div>
+	</div>
+	<!-- END Top header -->
+	<!-- Header-wrap -->
+	<div class="fw-main-row header-wrap">
+		<div class="fw-container">
+			<div class="fw-row">
+				[ Logo ]
+				[ Navigation code ]
+				[ Search code ]
+				<!-- Mobile side button -->
+				<div class="mobile-side-button"><i class="icon-font icon-menu"></i></div>
+				<!-- END Mobile side button -->
+				<!-- Mobiile side -->
+				<div class="mobile-side">
+					[ Social links ]
+					[ Search code ]
+					[ Navigation code ]
+				</div>
+				<!-- END Mobiile side -->
+			</div>
+		</div>
+	</div>
+	<!-- END Header-wrap -->
+</header></script></code></pre>
+				<div class="h1">Header logo</div>
+				<p>To display a logo in the header add the code:</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><div class="fw-col-sm-3 fw-col-md-2 logo-area"><a href="[ Home page link ]"><img src="images/[ Logo file name ]" alt="[ Site name ]"></a></div></script></code></pre>
+				<div class="h1">Header navigation</div>
+				<p>To add the navigation in the header using the following code</p>
+				<p><b>current-menu-item</b> - The active menu item<br><b>menu-item-has-children</b> - The menu has a submenu<br><b>sub-nav</b> - The subnav</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Site navigation -->
+<nav class="navigation">
+	<ul>
+		<li class="menu-item-has-children">
+			<a href="#">[ Parent menu item ]</a>
+			<div class="sub-nav">
+				<ul class="sub-menu">
+					<li><a href="#">[ Menu item ]</a></li>
+					<li><a href="#">[ Menu item ]</a></li>
+					<li><a href="#">[ Menu item ]</a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="current-menu-item menu-item-has-children">
+			<a href="#">[ Current menu item ]</a>
+			<div class="sub-nav">
+				<ul class="sub-menu">
+					<li><a href="#">[ Menu item ]</a></li>
+					<li class="current-menu-item"><a href="#">[ Current menu item ]</a></li>
+					<li class="menu-item-has-children">
+						<a href="#">[ Menu item ]</a>
+						<div class="sub-nav">
+							<ul class="sub-menu">
+								<li class="menu-item-has-children">
+								<a href="#">[ Menu item 1 ]</a>
+									<div class="sub-nav">
+										<ul class="sub-menu">
+											<li><a href="#">[ Menu item 1 ]</a></li>
+											<li><a href="#">[ Menu item 2 ]</a></li>
+											<li><a href="#">[ Menu item 3 ]</a></li>
+											<li><a href="#">[ Menu item 4 ]</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="menu-item-has-children">
+									<a href="#">[ Menu item 2 ]</a>
+									<div class="sub-nav">
+										<ul class="sub-menu">
+											<li><a href="#">[ Menu item 1 ]</a></li>
+											<li><a href="#">[ Menu item 2 ]</a></li>
+											<li><a href="#">[ Menu item 3 ]</a></li>
+											<li><a href="#">[ Menu item 4 ]</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">[ Menu item 3 ]</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">[ Menu item ]</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#">[ Menu item ]</a></li>
+	</ul>
+</nav>
+<!-- END Site navigation --></script></code></pre>
+				<div class="h1">Header search form</div>
+				<p>Code Search form after adding navigation</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Search module -->
+<div class="search-module">
+	<form action="javascript:void(0);">
+		<input type="text" class="input" name="search" placeholder="Search">
+		<button type="submit" class="submit"><i class="icon-font icon-search"></i></button>
+	</form>
+</div>
+<!-- END Search module --></script></code></pre>
+				<div class="h1">Footer</div>
+				<p>Code footer</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Footer -->
+<footer class="footer">
+	<div class="fw-container">
+		<div class="fw-row">
+			<!-- Col 1 -->
+			<div class="fw-col-xs-12 fw-col-sm-6 fw-col-md-3">
+				<h4>[ Heading ]</h4>
+				[ Content ]
+			</div>
+			<!-- Col 2 -->
+			<div class="fw-col-xs-12 fw-col-sm-6 fw-col-md-3">
+				<h4>[ Heading ]</h4>
+				[ Content ]
+			</div>
+			
+			...
+
+		</div>
+	</div>
+</footer>
+<!-- END Footer --></script></code></pre>
+				<div class="h1">Icons</div>
+				<p>The template is used 2 icon font, <a href="icon-font/index.html">icon-font</a>, <a href="medical-icons/index.html">medical-icons</a> & <a href="social-icons/index.html">social-icons</a></p>
+				<pre><code class="language-html"><script type="prism-html-markup"><i class="[ Icon font ] icon-[ Icon name ]"></i></script></code></pre>
+				<div class="h1">Categories</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Categories -->
+<div class="fw-main-row">
+	<div class="fw-container">
+		<div class="fw-col-sm-4">
+			<!-- Category item -->
+			<div class="category-item" style="background-image: url(images/imgs/category/[ Image file name ])">
+				<div class="centered-container">
+					<a href="javascript:void(0);" class="button-style2 white big"><span>[ Category title ]</span></a>
+				</div>
+			</div>
+			<!-- END Category item -->
+		</div>
+		<div class="fw-col-sm-4">
+			<!-- Category item -->
+			<div class="category-item" style="background-image: url(images/imgs/category/[ Image file name ])">
+				<div class="centered-container">
+					<a href="javascript:void(0);" class="button-style2 white big"><span>[ Category title ]</span></a>
+				</div>
+			</div>
+			<!-- END Category item -->
+		</div>
+		<div class="fw-col-sm-4">
+			<!-- Category item -->
+			<div class="category-item" style="background-image: url(images/imgs/category/[ Image file name ])">
+				<div class="centered-container">
+					<a href="javascript:void(0);" class="button-style2 white big"><span>[ Category title ]</span></a>
+				</div>
+			</div>
+			<!-- END Category item -->
+		</div>
+
+		...
+
+	</div>
+</div>
+<!-- END Categories --></script></code></pre>
+				<div class="h1">Testimonials slider</div>
+				<p>In creating this slider OwlCarousel library was used, read <a href="http://owlcarousel.owlgraphic.com/docs/started-welcome.html">the official documentation</a> for more flexible settings</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><div class="testimonials-slider">
+	<div class="testimonials-item">
+		<div class="fw-row">
+			<div class="image fw-col-sm-6">
+				<div style="background-image: url(images/imgs/testimonials/[ Image file name ])"></div>
+			</div>
+			<div class="text fw-col-sm-6 fw-col-sm-offset-6">
+				<div>
+					<div class="top">
+						<div class="h2">[ Author name ]</div>
+						<span>[ Author post ]</span>
+					</div>
+					<div class="h3">procedure: [ Procedure ]</div>
+					<div class="blockquote">[ Review text ]</div>
+					<div class="tac">
+						<a href="javascript:void(0);" class="button-style2">read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	...
+
+</div></script></code></pre>
+				<pre><code class="language-html">&lt;!-- Add in css files area --&gt;
+&lt;link rel="stylesheet" href="js/owl.carousel/owl.carousel.css"&gt;
+
+&lt;!-- Add in js files area --&gt;
+&lt;script src="js/owl.carousel/owl.carousel.min.js"&gt;&lt;/script&gt;</code></pre>
+				<div class="h1">Contact row</div>
+				<p>To display the contact row use this code:</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><span class="contact-item"><i class="icon-font icon-[ Icon name ]"></i> <span>[ Contact value ]</span></span></script></code></pre>
+				<div class="h1">Footer nav</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Footer nav -->
+<nav class="footer-menu">
+	<ul>
+		<li><a href="#">[ Menu item ]</a></li>
+		<li><a href="#">[ Menu item ]</a></li>
+		<li><a href="#">[ Menu item ]</a></li>
+
+		...
+
+	</ul>
+</nav>
+<!-- END Footer nav -->
+</script></code></pre>
+				<div class="h1">Subscribe form</div>
+				<p>This unit is responsible for subscriptions to the notification from the site</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Subscribe form -->
+<form action="javascript:void(0);" class="form-subsription">
+	<button type="submit" class="button-style1 min"><span>subscribe</span></button>
+	<div><input type="text" placeholder="Enter your e-mail..." class="style1 min"></div>
+</form></script></code></pre>
+				<div class="h1">Social links</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Social links -->
+<div class="social-link">
+	<a href="#"><i class="social-icons icon-[ Icon name ]"></i></a>
+	<a href="#"><i class="social-icons icon-[ Icon name ]"></i></a>
+	<a href="#"><i class="social-icons icon-[ Icon name ]"></i></a>
+
+	...
+
+</div></script></code></pre>
+				<div class="h1">Full screen section</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Full screen section -->
+<section class="full-screen fw-main-row [ if fixed height add class [ fixed-height ] ]" style="[ if fixed height add [ height: value px; ] ]background-image: url(&quot;images/imgs/[ Image file name ];);">
+	<div class="fw-container centered-container [ Text align (tal/tac/tar) ]">
+		<div class="container [ Text align (tal/tac/tar) ]">
+			[ Content ]
+		</div>
+	</div>
+</section>
+<!-- END Full screen section --></script></code></pre>
+				<div class="h1">Icon box</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Icon box style 1 -->
+<div class="fw-row">
+	<!-- Icon box -->
+	<div class="fw-col-sm-6 icon-box-item">
+		<div class="icon [ Icon font ] [ Icon name ]"></div>
+		<div class="text">
+			<div class="h2">[ Heading ]</div>
+			<p>[ Text ]</p>
+		</div>
+	</div>
+	<!-- END Icon box -->
+	
+	...
+
+</div>
+<!-- END Icon box style 1 -->
+
+<!-- Icon box style 2 -->
+<div class="fw-row">
+	<!-- Icon box style 2 -->
+	<div class="fw-col-xs-6 fw-col-sm-6 fw-col-md-3 icon-box2-item">
+		<div class="icon [ Icon font ] [ Icon name ]"></div>
+		<span>over</span>
+		<div class="number animateNumber active" data-num="[ Number ]">[ Number ]</div>
+		<h2>[ Heading ]</h2>
+	</div>
+	<!-- END Icon box style 2 -->
+	<!-- Icon box style 2 -->
+	<div class="fw-col-xs-6 fw-col-sm-6 fw-col-md-3 icon-box2-item">
+		<div class="icon [ Icon font ] [ Icon name ]"></div>
+		<span>over</span>
+		<div class="number animateNumber active" data-num="[ Number ]">[ Number ]</div>
+		<h2>[ Heading ]</h2>
+	</div>
+	<!-- END Icon box style 2 -->
+
+	...
+
+</div>
+<!-- END Icon box style 2 -->
+
+<!-- Icon box style 3 -->
+<div class="icon-box-area fw-row">
+	<!-- Icon box item -->
+	<div class="icon-box-col fw-col-xs-12 fw-col-sm-4 fw-col-md-3">
+		<div class="icon big medical-icon med-icon-nose"></div>
+		<div class="h2">[ Heading ]</div>
+		<p>[ Text ]</p>
+		<a href="javascript:void(0);" class="button-style2 gray min"><span>read more</span></a>
+	</div>
+	<!-- END Icon box item -->
+
+	...
+
+</div>
+<!-- END Icon box style 3 --></script></code></pre>
+				<div class="h1">Team items</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Team items -->
+<div class="fw-row">
+	<!-- Team item -->
+	<div class="fw-col-xs-12 fw-col-sm-6 fw-col-md-4">
+		<div class="team-item">
+			<div class="image"><a href="doctor-personal-page.html"><img class="retina-img" src="images/imgs/team/[ Image file name ]" alt="[ Name ]"></a></div>
+			<div class="name">
+				<h2>[ Name ]</h2>
+				<span>[ Post ]</span>
+			</div>
+			<div class="timetable">
+				<div class="item">
+					<div class="label">Monday-Friday</div>
+					<div class="value">8:00 - 17:00</div>
+				</div>
+				<div class="item">
+					<div class="label">Saturday</div>
+					<div class="value">10:00 - 16:00</div>
+				</div>
+				<div class="item">
+					<div class="label">Sunday</div>
+					<div class="value">12:00 - 14:00</div>
+				</div>
+			</div>
+			<a href="doctor-personal-page.html" class="button-style2"><span>read profile</span></a>
+		</div>
+	</div>
+	<!-- END Team item -->
+
+	...
+
+</div>
+<!-- END Team items --></script></code></pre>
+				<div class="h1">Price item</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Price item -->
+<div class="price-item" style="background-image: url(images/imgs/prices/[ Image file name ])">
+    <div>
+        <h2>[ Heading ]</h2>
+        <p>[ Text ]</p>
+        <div class="price"><span>From</span> [ Price ]</div>
+    </div>
+</div>
+<!-- END Price item --></script></code></pre>
+				<div class="h1">Gallery</div>
+				<p>Gallery has 2 style, grid and masonry, also has a sorting items by tag</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Grid gallery items -->
+<div class="fw-main-row">
+	<!-- Gallery item -->
+	<div class="gallery-item fw-col-sm-4 fw-col-md-3" style="background-image: url(images/imgs/gallery/[ Image file name ])">
+		<a href="gallery-single.html">
+			<span class="h2">[ Heading ]</span>
+			<span>[ Text ]</span>
+		</a>
+	</div>
+	<!-- END Gallery item -->
+	<!-- Gallery item -->
+	<div class="gallery-item fw-col-sm-4 fw-col-md-3" style="background-image: url(images/imgs/gallery/[ Image file name ])">
+		<a href="gallery-single.html">
+			<span class="h2">[ Heading ]</span>
+			<span>[ Text ]</span>
+		</a>
+	</div>
+	<!-- END Gallery item -->
+
+	...
+
+</div>
+<!-- END Grid gallery items -->
+
+<!-- Masonry gallery items -->
+<div class="gallery-masonry">
+	<!-- Gallery item -->
+	<div class="gallery-item fw-col-sm-6">
+		<img src="images/imgs/gallery-items/[ Image file name ]" alt="[ Heading ]">
+		<a href="#">
+			<div class="name">[ Heading ]</div>
+			<div class="text">[ Text ]</div>
+		</a>
+	</div>
+	<!-- END Gallery item -->
+	<!-- Gallery item -->
+	<div class="gallery-item fw-col-sm-6">
+		<img src="images/imgs/gallery-items/[ Image file name ]" alt="[ Heading ]">
+		<a href="#">
+			<div class="name">[ Heading ]</div>
+			<div class="text">[ Text ]</div>
+		</a>
+	</div>
+	<!-- END Gallery item -->
+
+	...
+
+</div>
+<!-- END Masonry gallery items --></script></code></pre>
+				<pre><code class="language-html">&lt;!-- Add in js files area --&gt;
+&lt;script src="js/isotope.pkgd.min.js"&gt;&lt;/script&gt;</code></pre>
+				<div class="h1">Blog items</div>
+				<p>Blog has 2 style</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Blog variant 1 -->
+<div class="fw-row">
+	<!-- Blog item -->
+	<div class="blog-item fw-col-md-4">
+		<div class="fw-row">
+			<div class="image fw-col-sm-5 fw-col-md-12"><a href="#"><img class="retina-img" src="images/imgs/blog/[ Image file name ]" alt="[ Post heading ]"></a></div>
+			<div class="fw-col-sm-7 fw-col-md-12">
+				<h2><a href="blog-post.html">[ Heading ]</a></h2>
+				<div class="post-date">[ Post date ]</div>
+				<p>[ Desc ]</p>
+				<a href="blog-post.html" class="button-style2 gray min">read more</a>
+			</div>
+		</div>
+	</div>
+	<!-- END Blog item -->
+	<!-- Blog item -->
+	<div class="blog-item fw-col-md-4">
+		<div class="fw-row">
+			<div class="image fw-col-sm-5 fw-col-md-12"><a href="#"><img class="retina-img" src="images/imgs/blog/[ Image file name ]" alt="[ Post heading ]"></a></div>
+			<div class="fw-col-sm-7 fw-col-md-12">
+				<h2><a href="#">[ Heading ]</a></h2>
+				<div class="post-date">[ Post date ]</div>
+				<p>[ Desc ]</p>
+				<a href="blog-post.html" class="button-style2 gray min">read more</a>
+			</div>
+		</div>
+	</div>
+	<!-- END Blog item -->
+
+	...
+
+</div>
+<!-- END Blog variant 1 -->
+<!-- Blog variant 2 -->
+<div class="fw-row">
+	<!-- Blog item -->
+	<div class="blog-item in-row fw-col-xs-12">
+		<div class="fw-row">
+			<div class="image fw-col-sm-4"><a href="#"><img class="retina-img" src="images/imgs/blog/[ Image file name ]" alt="[ Post heading ]"></a></div>
+			<div class="fw-col-sm-8">
+				<h2><a href="#">[ Heading ]</a></h2>
+				<div class="post-date">[ Post date ]</div>
+				<p>[ Desc ]</p>
+				<a href="blog-post.html" class="button-style2 gray min">read more</a>
+			</div>
+		</div>
+	</div>
+	<!-- END Blog item -->
+
+	... 
+
+</div>
+<!-- END Blog variant 2 --></script></code></pre>
+				<pre><code class="language-html">&lt;!-- Add in js files area --&gt;
+&lt;script src="js/isotope.pkgd.min.js"&gt;&lt;/script&gt;</code></pre>
+				<div class="h1">Pagination</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Pagination -->
+<div class="pagination">
+	<a href="#" class="active">1</a>
+	<a href="#">2</a>
+	<a href="#">[ Page num ]</a>
+	
+	...
+
+	<a href="#"><i class="icon-font icon-right-arrow"></i></a>
+</div>
+<!-- END Pagination --></script></code></pre>
+				<div class="h1">Map</div>
+				<p>To add a map, you need to get <a href="https://console.developers.google.com/flows/enableapi?apiid=places_backend,maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend&keyType=CLIENT_SIDE&reusekey=true">Google API key</a>. More can be found in <a href="https://developers.google.com/maps/documentation/javascript/tutorial?hl=en">the official documentation</a> for details about the Google Maps API.</p>
+				<pre><code class="language-html"><script type="prism-html-markup"><div id="map" style="border:0; height: 335px; width: 100%;"></div></script></code></pre>
+				<pre><code class="language-js">function initialize() {
+var myLatlng = new google.maps.LatLng([ Center map location ]);
+	var mapOptions = {
+		zoom: 16,
+		center: myLatlng,
+		disableDefaultUI: true,
+		scrollwheel: false,
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		styles: [{"featureType":"all","elementType":"all","stylers":[{"saturation":-100},{"gamma":1}]}]
+	}
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+	var myLatLng = new google.maps.LatLng([ Marker location ]);
+	var beachMarker = new google.maps.Marker({
+		position: myLatLng,
+		map: map
+	});
+	google.maps.event.addDomListener(window, "resize", function() {
+		var center = map.getCenter();
+		google.maps.event.trigger(map, "resize");
+		map.setCenter(center); 
+	});
+}
+google.maps.event.addDomListener(window, 'load', initialize);</code></pre>
+				<pre><code class="language-html">&lt;!-- Add in js files area --&gt;
+&lt;script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=[ Enter your key ]&amp;sensor=false"&gt;&lt;/script&gt;</code></pre>
+				<div class="h1">Feedback form</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><!-- Feedback form -->
+<form action="javascript:void(0);" class="form fw-row">
+	<div class="fw-col-sm-6 fw-col-md-3"><input type="text" placeholder="Your Name *" class="style1"></div>
+	<div class="fw-col-sm-6 fw-col-md-3"><input type="text" placeholder="Phone number *" class="style1"></div>
+	<div class="fw-col-sm-6 fw-col-md-3"><input type="text" placeholder="Your Email *" class="style1"></div>
+	<div class="fw-col-sm-6 fw-col-md-3"><input type="text" placeholder="Date &amp; Time for call" class="style1"></div>
+	<div class="fw-col-md-12">
+		<textarea placeholder="What is the nature of your appointment and who would you like to see? *" class="style1"></textarea>
+		<div class="tac"><button type="submit" class="button-style1"><span>send request</span></button></div>
+	</div>
+</form>
+<!-- END Feedback form --></script></code></pre>
+				<div class="h1">Week days</div>
+				<pre><code class="language-html"><script type="prism-html-markup"><div class="fw-row seven-cols pt20 pb40">
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style1 closed">
+		<div class="circle">
+			<div class="cell">sun</div>
+		</div>
+		<p>Closed</p>
+	</div>
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style2">
+		<div class="circle">
+			<div class="cell">mon</div>
+		</div>
+		<p>8:00 AM - 5:00 pM</p>
+	</div>
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style3">
+		<div class="circle">
+			<div class="cell">tue</div>
+		</div>
+		<p>8:00 AM - 6:00 pM</p>
+	</div>
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style4">
+		<div class="circle">
+			<div class="cell">wed</div>
+		</div>
+		<p>9:30 AM - 5:00 pM</p>
+	</div>
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style5">
+		<div class="circle">
+			<div class="cell">thu</div>
+		</div>
+		<p>8:00 AM - 5:00 pM</p>
+	</div>
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style6">
+		<div class="circle">
+			<div class="cell">fri</div>
+		</div>
+		<p>9:30 AM - 3:00 pM</p>
+	</div>
+	<div class="fw-col-xs-6 fw-col-sm-14 day-item style7 closed">
+		<div class="circle">
+			<div class="cell">sat</div>
+		</div>
+		<p>Closed</p>
+	</div>
+</div></script></code></pre>
+				<div class="h1">Notes</div>
+				<p>Images were used to demonstrate the resource template <a href="http://shutterstock.com/">shutterstock.com</a></p>
+				<p><b>Important:</b><br>Please note that theme does not include the images in the source zip file.</p>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="fw-container">
+				<p>If you have any problems, please write us <a href="support@promo-theme.com">support@promo-theme.com</a></p>
+				<p>We will solve your problems very quickly.<br>Thank you for your choice :)</p>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/prism.js"></script>
+</body>
+</html>

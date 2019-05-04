@@ -1,0 +1,206 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:38
+  	*/
+
+@font-face {
+  font-family: "medical-icons";
+  src: url("../fonts/medical-icons.eot");
+  src: url("../fonts/medical-icons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/medical-icons.woff") format("woff"),
+       url("../fonts/medical-icons.ttf") format("truetype"),
+       url("../fonts/medical-icons.svg#medical-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "medical-icons";
+    src: url("../fonts/medical-icons.svg#medical-icons") format("svg");
+  }
+}
+
+.medical-icon:before {
+  font-family: "medical-icons";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.med-icon-anesthesia:before { content: "\f100"; }
+.med-icon-antibiotic:before { content: "\f101"; }
+.med-icon-arm:before { content: "\f102"; }
+.med-icon-arm-1:before { content: "\f103"; }
+.med-icon-articulation:before { content: "\f104"; }
+.med-icon-bacteria:before { content: "\f105"; }
+.med-icon-band-aid:before { content: "\f106"; }
+.med-icon-blood-sample:before { content: "\f107"; }
+.med-icon-blood-sample-1:before { content: "\f108"; }
+.med-icon-blood-transfusion:before { content: "\f109"; }
+.med-icon-bone:before { content: "\f10a"; }
+.med-icon-braces:before { content: "\f10b"; }
+.med-icon-braces-1:before { content: "\f10c"; }
+.med-icon-braces-2:before { content: "\f10d"; }
+.med-icon-brain:before { content: "\f10e"; }
+.med-icon-brain-1:before { content: "\f10f"; }
+.med-icon-brain-2:before { content: "\f110"; }
+.med-icon-brain-3:before { content: "\f111"; }
+.med-icon-breast:before { content: "\f112"; }
+.med-icon-breast-1:before { content: "\f113"; }
+.med-icon-breast-2:before { content: "\f114"; }
+.med-icon-breast-3:before { content: "\f115"; }
+.med-icon-breast-4:before { content: "\f116"; }
+.med-icon-breast-implant:before { content: "\f117"; }
+.med-icon-canine:before { content: "\f118"; }
+.med-icon-canine-1:before { content: "\f119"; }
+.med-icon-canine-2:before { content: "\f11a"; }
+.med-icon-canine-3:before { content: "\f11b"; }
+.med-icon-cardiogram:before { content: "\f11c"; }
+.med-icon-cardiogram-1:before { content: "\f11d"; }
+.med-icon-cardiogram-2:before { content: "\f11e"; }
+.med-icon-caries:before { content: "\f11f"; }
+.med-icon-caries-1:before { content: "\f120"; }
+.med-icon-crutches:before { content: "\f121"; }
+.med-icon-dental-drill:before { content: "\f122"; }
+.med-icon-dental-floss:before { content: "\f123"; }
+.med-icon-dna:before { content: "\f124"; }
+.med-icon-dropper:before { content: "\f125"; }
+.med-icon-drugs:before { content: "\f126"; }
+.med-icon-drugs-1:before { content: "\f127"; }
+.med-icon-drugs-2:before { content: "\f128"; }
+.med-icon-drugs-3:before { content: "\f129"; }
+.med-icon-drugs-4:before { content: "\f12a"; }
+.med-icon-ear:before { content: "\f12b"; }
+.med-icon-earbuds:before { content: "\f12c"; }
+.med-icon-edema:before { content: "\f12d"; }
+.med-icon-electric-toothbrush:before { content: "\f12e"; }
+.med-icon-epidermis:before { content: "\f12f"; }
+.med-icon-extraction:before { content: "\f130"; }
+.med-icon-eye:before { content: "\f131"; }
+.med-icon-eye-1:before { content: "\f132"; }
+.med-icon-eye-drops:before { content: "\f133"; }
+.med-icon-eye-drops-1:before { content: "\f134"; }
+.med-icon-fat:before { content: "\f135"; }
+.med-icon-femur:before { content: "\f136"; }
+.med-icon-finger:before { content: "\f137"; }
+.med-icon-finger-1:before { content: "\f138"; }
+.med-icon-finger-2:before { content: "\f139"; }
+.med-icon-first-aid-kit:before { content: "\f13a"; }
+.med-icon-fit:before { content: "\f13b"; }
+.med-icon-gum:before { content: "\f13c"; }
+.med-icon-gum-1:before { content: "\f13d"; }
+.med-icon-hammer:before { content: "\f13e"; }
+.med-icon-heart:before { content: "\f13f"; }
+.med-icon-implants:before { content: "\f140"; }
+.med-icon-implants-1:before { content: "\f141"; }
+.med-icon-implants-2:before { content: "\f142"; }
+.med-icon-implants-3:before { content: "\f143"; }
+.med-icon-implants-4:before { content: "\f144"; }
+.med-icon-inhalator:before { content: "\f145"; }
+.med-icon-intestines:before { content: "\f146"; }
+.med-icon-iris:before { content: "\f147"; }
+.med-icon-kidney:before { content: "\f148"; }
+.med-icon-kidney-1:before { content: "\f149"; }
+.med-icon-knee:before { content: "\f14a"; }
+.med-icon-knee-1:before { content: "\f14b"; }
+.med-icon-kneecap:before { content: "\f14c"; }
+.med-icon-liver:before { content: "\f14d"; }
+.med-icon-lozenge:before { content: "\f14e"; }
+.med-icon-lungs:before { content: "\f14f"; }
+.med-icon-lungs-1:before { content: "\f150"; }
+.med-icon-lungs-2:before { content: "\f151"; }
+.med-icon-medical-records:before { content: "\f152"; }
+.med-icon-medicine:before { content: "\f153"; }
+.med-icon-medicine-1:before { content: "\f154"; }
+.med-icon-microbe:before { content: "\f155"; }
+.med-icon-mirror:before { content: "\f156"; }
+.med-icon-molar:before { content: "\f157"; }
+.med-icon-molar-1:before { content: "\f158"; }
+.med-icon-molar-2:before { content: "\f159"; }
+.med-icon-molar-3:before { content: "\f15a"; }
+.med-icon-molar-4:before { content: "\f15b"; }
+.med-icon-molar-5:before { content: "\f15c"; }
+.med-icon-molar-6:before { content: "\f15d"; }
+.med-icon-molar-7:before { content: "\f15e"; }
+.med-icon-molar-8:before { content: "\f15f"; }
+.med-icon-molar-crown:before { content: "\f160"; }
+.med-icon-nose:before { content: "\f161"; }
+.med-icon-notepad:before { content: "\f162"; }
+.med-icon-ointment:before { content: "\f163"; }
+.med-icon-ointment-1:before { content: "\f164"; }
+.med-icon-optical:before { content: "\f165"; }
+.med-icon-otoscope:before { content: "\f166"; }
+.med-icon-pancreas:before { content: "\f167"; }
+.med-icon-penis:before { content: "\f168"; }
+.med-icon-perfusion:before { content: "\f169"; }
+.med-icon-periodontal-scaler:before { content: "\f16a"; }
+.med-icon-periodontal-scaler-1:before { content: "\f16b"; }
+.med-icon-periodontal-scaler-2:before { content: "\f16c"; }
+.med-icon-pill:before { content: "\f16d"; }
+.med-icon-pill-1:before { content: "\f16e"; }
+.med-icon-pills:before { content: "\f16f"; }
+.med-icon-pills-1:before { content: "\f170"; }
+.med-icon-pills-2:before { content: "\f171"; }
+.med-icon-pills-3:before { content: "\f172"; }
+.med-icon-pills-4:before { content: "\f173"; }
+.med-icon-plastered-foot:before { content: "\f174"; }
+.med-icon-plastered-foot-1:before { content: "\f175"; }
+.med-icon-premolar:before { content: "\f176"; }
+.med-icon-premolar-1:before { content: "\f177"; }
+.med-icon-premolar-2:before { content: "\f178"; }
+.med-icon-records:before { content: "\f179"; }
+.med-icon-records-1:before { content: "\f17a"; }
+.med-icon-records-2:before { content: "\f17b"; }
+.med-icon-ribbon:before { content: "\f17c"; }
+.med-icon-scalpel:before { content: "\f17d"; }
+.med-icon-scissors:before { content: "\f17e"; }
+.med-icon-skeleton:before { content: "\f17f"; }
+.med-icon-skull:before { content: "\f180"; }
+.med-icon-skull-1:before { content: "\f181"; }
+.med-icon-spinal-column:before { content: "\f182"; }
+.med-icon-stethoscope:before { content: "\f183"; }
+.med-icon-stomach:before { content: "\f184"; }
+.med-icon-stomach-1:before { content: "\f185"; }
+.med-icon-syringe:before { content: "\f186"; }
+.med-icon-syringe-1:before { content: "\f187"; }
+.med-icon-syringe-2:before { content: "\f188"; }
+.med-icon-syringe-3:before { content: "\f189"; }
+.med-icon-syringe-4:before { content: "\f18a"; }
+.med-icon-tablets:before { content: "\f18b"; }
+.med-icon-teeth:before { content: "\f18c"; }
+.med-icon-teeth-1:before { content: "\f18d"; }
+.med-icon-teeth-10:before { content: "\f18e"; }
+.med-icon-teeth-2:before { content: "\f18f"; }
+.med-icon-teeth-3:before { content: "\f190"; }
+.med-icon-teeth-4:before { content: "\f191"; }
+.med-icon-teeth-5:before { content: "\f192"; }
+.med-icon-teeth-6:before { content: "\f193"; }
+.med-icon-teeth-7:before { content: "\f194"; }
+.med-icon-teeth-8:before { content: "\f195"; }
+.med-icon-teeth-9:before { content: "\f196"; }
+.med-icon-thermometer:before { content: "\f197"; }
+.med-icon-thermometer-1:before { content: "\f198"; }
+.med-icon-thin:before { content: "\f199"; }
+.med-icon-tonsils-tester:before { content: "\f19a"; }
+.med-icon-tooth:before { content: "\f19b"; }
+.med-icon-tooth-1:before { content: "\f19c"; }
+.med-icon-tooth-2:before { content: "\f19d"; }
+.med-icon-tooth-brush:before { content: "\f19e"; }
+.med-icon-tooth-pliers:before { content: "\f19f"; }
+.med-icon-tweezers:before { content: "\f1a0"; }
+.med-icon-tweezers-1:before { content: "\f1a1"; }
+.med-icon-uterus:before { content: "\f1a2"; }
+.med-icon-vagina:before { content: "\f1a3"; }
+.med-icon-vagina-1:before { content: "\f1a4"; }
+.med-icon-virus:before { content: "\f1a5"; }
+.med-icon-wheelchair:before { content: "\f1a6"; }
+.med-icon-x-ray:before { content: "\f1a7"; }
+.med-icon-x-ray-1:before { content: "\f1a8"; }
+.med-icon-x-ray-2:before { content: "\f1a9"; }
